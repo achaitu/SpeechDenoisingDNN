@@ -1,6 +1,6 @@
 # Speech Enhancement using Deep Neural Networks
 ## Introduction
-Whenever we work with real time speech signals, we need to keep in mind about various types of noises that gets added and hence resulting in corruption of noise.
+Whenever we work with real time speech signals, we need to keep in mind about various types of noises that gets added to the original noise and hence resulting in corruption of noise.
 Therefore, in order to make a better sense of the signals, it is very much necessary to enhance the speech signals by removing the noises present in them. 
 ## Applications:
 * Automatic speech recognition
@@ -68,7 +68,6 @@ You can find the complete dataset here https://zenodo.org/record/260228
 #### Enhanced Signal
 ![Enhanced image](images/estimated1.png)
 
-
 ### 2. Network based on the past frames:
 * trained the network with past 7 noisy frames concatinated with the present frame as the input and the corresponding present frame's clean frame as the output.
 
@@ -95,3 +94,12 @@ You can find the complete dataset here https://zenodo.org/record/260228
 * <i>A FULLY CONVOLUTIONAL NEURAL NETWORK FOR SPEECH ENHANCEMENT by Se Rim Park and Jin Won Lee. Link: https://arxiv.org/pdf/1609.07132.pdf</i>
 * <i>An Experimental Study on Speech Enhancement Based on Deep Neural Networks by Yong Xu, Jun Du, Li-Rong Dai, and Chin-Hui Lee. Link: https://www.researchgate.net/profile/Jun_Du11/publication/260493656_An_Experimental_Study_on_Speech_Enhancement_Based_on_Deep_Neural_Networks/links/588afb0eaca2727ec119d109/An-Experimental-Study-on-Speech-Enhancement-Based-on-Deep-Neural-Networks.pdf Alternate link: http://or.nsfc.gov.cn/bitstream/00001903-5/95174/1/1000006795890.pdf</i>
 * <i>Experiments on Deep Learning for Speech Denoising by Ding Liu , Paris Smaragdis, Minje Kim. Link: https://paris.cs.illinois.edu/pubs/liu-interspeech2014.pdf</i>
+
+
+## Note
+* This project is made available for research purpose only.
+* This project will be continued and updated through time. 
+* The codes are available for only babble and cafe noises. The codes for rest of the noises will be almost similar. 
+  
+## Contact
+For any further queries, contact: amballachaitanya777@gmail.com
